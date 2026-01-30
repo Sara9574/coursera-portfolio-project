@@ -1,11 +1,27 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
+    
+} */
+
+body{
     font-family: "Montserrat", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1rem;
 }
 
 #logo{
-    margin: 50px auto;
+    margin: 3rem auto;
     display: block;
 }
 
@@ -26,4 +42,49 @@
     cursor: pointer;
     color: rgb(99, 99, 99);
     border-bottom:1px solid rgb(117, 117, 117) ;
+}
+
+section{
+    display: flex;
+    gap:4rem;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    margin-top: 3rem;
+}
+footer div{
+    flex: 1;
+    text-align: center;
+}
+
+
+.promo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.promo {
+  position: relative;
+
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  max-width: 400px;
+  color: rgb(53, 53, 53);
+}
+
+
+hr{
+    margin: 2rem 0;
+    border-top: 1px solid rgb(225, 225, 225);
 }
